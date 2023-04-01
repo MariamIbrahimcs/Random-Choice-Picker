@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: steelblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.title{
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.area{
+    width: 50%;
+    font-size: 1rem;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.choices{
+
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    
+    font-size: 1.5rem;
+    /* margin-top: 20px; */
+
+    margin: 10px auto;
+}
+
+.choice{
+    /* background-color: gold;
+    padding: 3px 10px;
+    border-radius: 40%; */
+
+    /* display: flex; */
+    background-color: rgb(252, 183, 156);
+    /* background-color: rgb(206, 88, 41); */
+    padding-bottom: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 40%;
+    margin: 0px 5px;
+    /* align-self: flex-start; */
+}
+
+.delete-choice{
+    background-color: RED;
+    border-radius: 50%;
+    font-weight: bold;
+    cursor: pointer;
+    transform: rotate(45deg);
+    
+}
